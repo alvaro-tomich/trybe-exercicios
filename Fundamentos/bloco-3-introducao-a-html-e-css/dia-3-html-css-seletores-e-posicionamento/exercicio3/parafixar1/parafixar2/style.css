@@ -1,0 +1,47 @@
+   div:hover{
+       border-style: solid;
+   }
+   
+   #Primária{
+       background-color: red;
+   }
+
+   #Secundária{
+       background-color: orange;
+   }
+
+   #Complementar{
+       background-color: #084D6E;
+       padding: 10px
+   }
+
+   #Escura{
+       background-color: darkblue;
+   }
+
+   #Clara{
+       background-color: lightblue
+   }
+
+   #Primária h3{
+       color: white;
+       font-style: italic;
+   }
+
+   #Secundária h3{
+       color: Red;
+   }
+
+   #Complementar h3{
+       color: lightgreen;
+       font-style: italic;
+   }
+
+   #Escura h3{
+       color: lightblue;
+   }
+
+   #Clara h3{
+       color: darkblue;
+       font-style: italic;
+   }
