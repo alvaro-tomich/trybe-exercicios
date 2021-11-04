@@ -1,0 +1,60 @@
+   *{
+       margin: 0px;
+       padding: 0px;
+   }
+
+   header, footer{
+       text-align: center;
+       background-color: green;
+       color: white;
+   }
+
+   .inline li{
+       display: inline;
+       padding: 5px;
+   }
+   ul{
+       margin: 10px;
+   }
+   .inline li a{
+       text-decoration: none;
+       color: white;
+   }
+   .facts{
+       margin-top: 20px;
+       text-align: justify;
+       max-width: 30%;
+       margin: 0 auto;
+   }
+   h2{
+       margin-top: 100px;
+       text-align: center;
+   }
+
+   .gerinfo{
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-align: center;
+   } 
+
+   table{
+      max-width: 30%;
+      margin: 0 auto;
+   }
+
+   .pgerinfo{
+       text-align: center;
+   }
+
+   .pos{
+       max-width: 30%;
+       margin-left: 20px;
+       margin-top: 96px;
+       display: inline-block;
+   }
+
+   aside{
+       float: right;
+       text-decoration: none;
+   }
+ 
