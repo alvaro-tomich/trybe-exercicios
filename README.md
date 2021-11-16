@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto - Lessons Learned](https://github.com/tryber/sd-018-b-project-lessons-learned/tree/alvaro-ramos-lessons-learned)_
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação(https://github.com/alvaro-tomich/trybe-exercicios/tree/main/Fundamentos/bloco-4-introducao-a-java-scrip-e-logica-de-programacao)
+##### [Bloco 4: Introdução à JavaScript e Lógica de Programação](https://github.com/alvaro-tomich/trybe-exercicios/tree/main/Fundamentos/bloco-4-introducao-a-java-scrip-e-logica-de-programacao)
 
 - [x] 4-1: _Introdução - JavaScript_
 - [x] 4-1: _JavaScript - Primeiros passos_
