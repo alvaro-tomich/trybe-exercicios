@@ -42,7 +42,7 @@ function lowerNumber(numbers){
 
 console.log(lowerNumber([2, 4, 6, 7, 10, 0, -3]))*/
 
-// 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+/* 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 
 function moreCharacters(words){
     let arr = [];
@@ -63,8 +63,10 @@ function moreCharacters(words){
 
 }
 
-console.log(moreCharacters(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+console.log(moreCharacters(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));*/
 
-// 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+
+
 
 
