@@ -20,6 +20,8 @@
         </section>
       </main>
   <script>
+
+      // exercício 1
       console.log(document.querySelector("#elementoOndeVoceEsta"));
       document.querySelector("#elementoOndeVoceEsta").parentElement.style.color = "red";
       document.querySelector("#primeiroFilhoDoFilho").innerHTML = "esse é o filho do filho";
@@ -28,6 +30,8 @@
       console.log(document.querySelector("#elementoOndeVoceEsta").nextSibling);
       console.log(document.querySelector("#elementoOndeVoceEsta").nextElementSibling);
       console.log(document.querySelector("#pai").children[2]);
+
+      // exercício 2
       let brother = document.createElement('section');
       document.querySelector("#pai").appendChild(brother);
       let filho = document.createElement('section');
@@ -36,6 +40,21 @@
       filhoDoFilho.id = 'primeiroFilhoDoPrimeiroFilho';
       console.log(document.querySelector("#primeiroFilhoDoFilho").appendChild(filhoDoFilho));
       console.log(document.querySelector("#primeiroFilhoDoPrimeiroFilho").parentElement.parentElement.nextElementSibling);
+
+      // exercício 3
+      const mantemP = document.querySelector("#pai");
+
+      for (let i = mantemP.childNodes.length - 1; i >= 0; i -= 1){
+          let element = mantemP.childNodes[i];
+          if (element.id !== "elementoOndeVoceEsta"){
+            element.remove();
+          }
+      }
+      let remover = document.getElementById("segundoEUltimoFilhoDoFilho");
+      remover.remove();
+      console.log(mantemP);
+
+
   </script>
 </body>
 </html>
