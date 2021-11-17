@@ -28,7 +28,14 @@
       console.log(document.querySelector("#elementoOndeVoceEsta").nextSibling);
       console.log(document.querySelector("#elementoOndeVoceEsta").nextElementSibling);
       console.log(document.querySelector("#pai").children[2]);
-
+      let brother = document.createElement('section');
+      document.querySelector("#pai").appendChild(brother);
+      let filho = document.createElement('section');
+      document.querySelector("#elementoOndeVoceEsta").appendChild(filho);
+      let filhoDoFilho = document.createElement('section');
+      filhoDoFilho.id = 'primeiroFilhoDoPrimeiroFilho';
+      console.log(document.querySelector("#primeiroFilhoDoFilho").appendChild(filhoDoFilho));
+      console.log(document.querySelector("#primeiroFilhoDoPrimeiroFilho").parentElement.parentElement.nextElementSibling);
   </script>
 </body>
 </html>
