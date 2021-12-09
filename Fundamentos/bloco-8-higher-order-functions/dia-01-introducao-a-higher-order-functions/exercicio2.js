@@ -7,7 +7,7 @@ const winnerCheck = (number, choice) => {
 } 
 
 const prizeDraw = (number) => {
-    const geraNumero = Math.round(Math.random(5) * 5);
+    const geraNumero = Math.floor((Math.random() * 5) + 1);
     winnerCheck(number, geraNumero);
 }
 
