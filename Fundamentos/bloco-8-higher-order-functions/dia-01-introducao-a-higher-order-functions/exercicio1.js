@@ -8,13 +8,13 @@ const createId = (nomeCompleto) => {
     return object;
 };
 
-const newEmployees = () => {
+const newEmployees = (action) => {
   const employees = {
-    id1: createId('Pedro Guerra'),
-    id2: createId('Luiza Drumond'),
-    id3: createId('Carla Paiva'),
+    id1: action('Pedro Guerra'),
+    id2: action('Luiza Drumond'),
+    id3: action('Carla Paiva'),
   }
   return employees;
 };
 
-console.log(newEmployees());
+console.log(newEmployees(createId));

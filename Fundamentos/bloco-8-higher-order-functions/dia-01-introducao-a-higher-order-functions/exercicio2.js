@@ -6,9 +6,9 @@ const winnerCheck = (number, choice) => {
     }
 } 
 
-const prizeDraw = (number) => {
+const prizeDraw = (number, action) => {
     const geraNumero = Math.floor((Math.random() * 5) + 1);
-    winnerCheck(number, geraNumero);
+    action(geraNumero, number);
 }
 
-prizeDraw(1);
+prizeDraw(1, winnerCheck);
