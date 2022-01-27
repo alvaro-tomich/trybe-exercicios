@@ -9,30 +9,37 @@ class App extends React.Component {
         this.leftButton = this.leftButton.bind(this);
         this.middleButton = this.middleButton.bind(this);
         this.rightButton = this.rightButton.bind(this);
-
+        this.state = {
+          leftButton: 0,
+          middleButton: 0,
+          rightButton: 0,
+        }
     }
 
     leftButton = () => {
-        console.log(this);
-        console.log('Clicou no botão esquerdo')
+        this.setState((estadoAnterior, _props) => ({
+          leftButton: estadoAnterior.leftButton + 1,
+        }))
     }
     
     middleButton = () => {
-        console.log(this);
-        console.log('Clicou no botão do meio');
+      this.setState((estadoAnterior, _props) => ({
+        middleButton: estadoAnterior.middleButton + 1,
+      }))
     }
     
     rightButton = () => {
-        console.log(this);
-        console.log('Clicou no botão direito');
+      this.setState((estadoAnterior, _props) => ({
+        rightButton: estadoAnterior.rightButton + 1,
+      }))
     }
 
   render() {
     return (
       <div>
-        <button onClick={this.leftButton}>LeftButton</button>
-        <button onClick={this.middleButton}>MiddleButton</button>
-        <button onClick={this.rightButton}>RightButton</button>
+        <button onClick={this.leftButton}>{this.state.leftButton}</button>
+        <button onClick={this.middleButton}>{this.state.middleButton}</button>
+        <button onClick={this.rightButton}>{this.state.rightButton}</button>
       </div>
     )
   }
