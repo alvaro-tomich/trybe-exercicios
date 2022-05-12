@@ -1,3 +1,5 @@
+const readline = require('readline-sync');
+
 function calculaImc (peso, altura) {
 
   const alturaEmM = altura/100;
